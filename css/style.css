@@ -1,3 +1,14 @@
+body{
+    background-image: url("../recursos/imagenes/Tienda_Imagen_Fondo.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    /* height: 100%;
+    width: 100%; */
+    position: relative;
+}
+
 .img-logo {
     width: 250px;
     height: 150px;
@@ -6,4 +17,9 @@ header{
     background: #FFF65D;
     color: #BF4B4B;
     font: Arial bold ;
+}
+
+.color-componente{
+    background-color: #FFF;
+    opacity: 0.8;
 }
